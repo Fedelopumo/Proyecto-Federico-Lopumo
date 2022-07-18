@@ -402,8 +402,10 @@ align-items: center;
 
 
 
-.padre{
+.padre:hover{
     background-color: red;
+    font-size: x-large;
+
 }
  
 

@@ -1,0 +1,416 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos generales*/
+
+
+body{
+
+   background-image: linear-gradient(to bottom, skyblue, rgb(0, 92, 138)
+   ) 
+    ;
+}
+
+/*estilos del header*/
+
+h1{
+    color: black;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2.3rem;
+    text-shadow: 2px 2px whitesmoke;
+}
+
+
+/* estilos del menu */
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+nav ul li{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+    font-weight: bold;
+    box-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.padre{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    
+}
+
+.img__menu{
+    width: 5%;
+    
+ }
+
+/* no tocar*/
+
+
+
+
+.padre__produc{
+    
+    display: grid;
+ grid-template-columns: 2fr 2fr ;
+ grid-template-rows:1fr 1fr ;
+ justify-items: center;
+ justify-content: stretch;
+ 
+ 
+    
+    
+}
+
+.hijo__produc1{
+    margin: 1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    
+    
+    
+    
+}
+
+.hijo__produc1 h4{
+    text-align: center;
+    font-size: larger;
+}
+
+.img__produc1{
+    width: 20%;
+    
+}
+
+.hijo__produc2{
+    margin: 1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+    
+}
+
+.hijo__produc2 h4{
+    text-align: center;
+    font-size: larger;
+}
+
+.hijo__produc4{
+    margin: 1rem;
+    
+    border-radius: 1rem;
+   
+}
+   
+    
+    
+}
+
+
+.hijo__produc4{
+    width: 200%;
+}
+
+.img__produc2{
+    width: 20%;
+}
+
+.hijo__produc3{
+    margin: 1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+    
+}
+
+.hijo__produc3 h4{
+    text-align: center;
+    font-size: larger;
+}
+
+.img__produc3{
+    width: 20%;
+}
+    
+    .hijo__produc5{
+        margin: 1rem;
+    width: 200%;
+    
+    
+    
+    }
+
+    .hijo__produc6{
+    margin: 1rem;
+    width: 200%;   
+    
+    
+    }
+
+   
+
+
+
+
+    .pie__pagina{
+        
+        text-align: center;
+        font-weight: bold;
+        margin: 20px;
+        border-top: 1px solid rgb(0, 0, 0);
+        padding: 20px;
+        margin: 20px;
+        
+    }
+
+    .img__redes{
+        width: 2%;
+    }
+
+
+
+
+
+
+    /*contactos*/
+
+    .flex-container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        margin: 50px 50px;
+    }
+
+    .form{
+        min-width: 400px;
+        flex: 1;
+        text-align: right;
+        padding: 30px;
+    }
+
+    .form__input{
+        width: 100%;
+        padding: 7px;
+        margin: 6px 0;
+        border: none;
+        border-bottom:3px solid black;
+        background: whitesmoke;
+    }
+
+    .form textarea{
+        min-height: 140px;
+    }
+
+    .form-img{
+     flex: 1;
+     padding: 10px;
+     display: flex;
+
+    }
+
+    .form-img div{
+        padding: 10px;
+       
+
+    }
+
+    .img-container{
+        
+        margin: auto;
+       
+        
+    }
+
+    .img-container div{
+        background-color: #fff;
+        border-radius: 30%;
+        text-align: center;
+        padding: 40px;
+
+    }
+
+    .form-img img {
+        width:30%;
+        margin: auto;
+        
+        
+        
+       
+    }
+
+
+
+
+
+
+    /*Suplementos*/
+
+    .main__suplementos{
+        
+        background-color: whitesmoke;
+        border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+        padding: 10px;
+        margin: 40px ;
+        display: grid;
+        grid-template-columns:auto auto ;
+    grid-template-rows:1.5fr 1fr 1fr 0.5fr ;
+    grid-template-areas:"mainP mainP"
+                        "imagen1 imagen2"
+                        "imagen3 imagen4"
+                        "parrafo parrafo";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    }
+
+    .imagenes__productos{
+        width: 50%;
+        border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+        margin: 10px;
+
+    }
+
+    .proteina{
+        text-align: center;
+        border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+    }
+    
+
+    .producto__suplementos--uno{
+        text-align: center;
+        border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+    }
+
+    .producto__suplementos--info{
+        margin: 50px;
+        text-align: center;
+        border-radius: 1rem;
+        font-weight: bold;
+        
+
+    }
+
+
+
+    /*accesorios*/
+
+
+.main__accesorios{
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+    padding: 10px;
+    margin: 40px ;
+    display: grid;
+    grid-template-columns:auto auto ;
+grid-template-rows:1.5fr 1fr 1fr 0.5fr ;
+grid-template-areas:"mainP mainP"
+                    "imagen1 imagen2"
+                    "imagen3 imagen4"
+                    "parrafo parrafo";
+justify-content: center;
+justify-items: center;
+align-items: center;
+}
+
+
+.imagen__accesorios{
+    width: 50%;
+        border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+        margin: 10px;
+}
+
+
+/* quienes somos*/
+
+
+.main__quienes{
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    font-weight: bold;
+    margin: 10px;
+    
+    
+}
+
+.main__quienes h1{
+    text-align: center;
+    border-radius: 1rem;
+        font-weight: bold;
+        box-shadow: 2px 2px rgb(0, 0, 0);
+        margin: 10px;
+}
+
+
+.img__quienes{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.pepito{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+.padre{
+    background-color: red;
+}
+ 
+
+
+
+
+
+
+
+
